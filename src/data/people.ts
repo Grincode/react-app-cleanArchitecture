@@ -1,138 +1,182 @@
-
 export const People = [
     {
-        "id": 1,
-        "name": "John Doe",
-        "category": "Engineering",
-        "category-image": "engineering.png",
-        "company": "Tech Innovators",
-        "company-image": "tech_innovators.png",
-        "levelOfHappiness": 28
+        id: '1',
+        name: 'Alan Bello',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Planet of the Grapes',
+        'company-image': 'grapes.png',
+        levelOfHappiness: '30'
     },
     {
-        "id": 2,
-        "name": "Jane Smith",
-        "category": "Marketing",
-        "category-image": "marketing.png",
-        "company": "Creative Minds",
-        "company-image": "creative_minds.png",
-        "levelOfHappiness": 25
+        id: '2',
+        name: 'Alejandro Danza',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Lord of the Fries',
+        'company-image': 'fries.png',
+        levelOfHappiness: '100'
     },
     {
-        "id": 3,
-        "name": "Alice Johnson",
-        "category": "Human Resources",
-        "category-image": "hr.png",
-        "company": "People First",
-        "company-image": "people_first.png",
-        "levelOfHappiness": 22
+        id: '3',
+        name: 'Sara Grecia',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Hurry Curry',
+        'company-image': 'curry.png',
+        levelOfHappiness: '50'
     },
     {
-        "id": 4,
-        "name": "Bob Brown",
-        "category": "Finance",
-        "category-image": "finance.png",
-        "company": "Money Matters",
-        "company-image": "money_matters.png",
-        "levelOfHappiness": 30
+        id: '4',
+        name: 'Ramon Llanura',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Eggcellent Eats',
+        'company-image': 'eats.png',
+        levelOfHappiness: '100'
     },
     {
-        "id": 5,
-        "name": "Charlie Davis",
-        "category": "Sales",
-        "category-image": "sales.png",
-        "company": "Salesforce",
-        "company-image": "salesforce.png",
-        "levelOfHappiness": 18
+        id: '5',
+        name: 'Alejandro Pedros',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Thai Tanic',
+        'company-image': 'tanic.png',
+        levelOfHappiness: '10'
     },
     {
-        "id": 6,
-        "name": "Diana Wilson",
-        "category": "Operations",
-        "category-image": "operations.png",
-        "company": "Efficient Ops",
-        "company-image": "efficient_ops.png",
-        "levelOfHappiness": 24
+        id: '6',
+        name: 'Pablo Ducho',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Wok This Way',
+        'company-image': 'way.png',
+        levelOfHappiness: '97'
     },
     {
-        "id": 7,
-        "name": "Edward Clark",
-        "category": "Customer Support",
-        "category-image": "customer_support.png",
-        "company": "Customer First",
-        "company-image": "customer_first.png",
-        "levelOfHappiness": 27
+        id: '7',
+        name: 'Samuel Glorias',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Sam and Ella',
+        'company-image': 'ella.png',
+        levelOfHappiness: '21'
     },
     {
-        "id": 8,
-        "name": "Fiona Lewis",
-        "category": "Product Management",
-        "category-image": "product_management.png",
-        "company": "Innovative Products",
-        "company-image": "innovative_products.png",
-        "levelOfHappiness": 29
+        id: '8',
+        name: 'Anna Higo',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Mustard’s Last Stand',
+        'company-image': 'stand.png',
+        levelOfHappiness: '10'
     },
     {
-        "id": 9,
-        "name": "George Harris",
-        "category": "IT Support",
-        "category-image": "it_support.png",
-        "company": "Tech Support",
-        "company-image": "tech_support.png",
-        "levelOfHappiness": 21
+        id: '9',
+        name: 'Janine Trovello',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Life of Pie',
+        'company-image': 'pie.png',
+        levelOfHappiness: '10'
     },
     {
-        "id": 10,
-        "name": "Hannah Lee",
-        "category": "Design",
-        "category-image": "design.png",
-        "company": "Creative Designs",
-        "company-image": "creative_designs.png",
-        "levelOfHappiness": 23
+        id: '10',
+        name: 'Ricardo Lini',
+        category: 'manager',
+        'category-image': 'manager.png',
+        company: 'Basic Kneads Pizza',
+        'company-image': 'pizza.png',
+        levelOfHappiness: '55'
     },
     {
-        "id": 11,
-        "name": "Ivan Martinez",
-        "category": "Legal",
-        "category-image": "legal.png",
-        "company": "Legal Eagles",
-        "company-image": "legal_eagles.png",
-        "levelOfHappiness": 20
+        id: '11',
+        name: 'Jayde Mccallum',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Earth Wind And Flour',
+        'company-image': 'flour.png',
+        levelOfHappiness: '56'
     },
     {
-        "id": 12,
-        "name": "Julia Walker",
-        "category": "Research & Development",
-        "category-image": "rd.png",
-        "company": "Future Innovations",
-        "company-image": "future_innovations.png",
-        "levelOfHappiness": 26
+        id: '12',
+        name: 'Sakina Tillman',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: '9021 Pho',
+        'company-image': 'pho.png',
+        levelOfHappiness: '50'
     },
     {
-        "id": 13,
-        "name": "Kevin Thompson",
-        "category": "Quality Assurance",
-        "category-image": "qa.png",
-        "company": "Quality Matters",
-        "company-image": "quality_matters.png",
-        "levelOfHappiness": 17
+        id: '13',
+        name: 'Ashwin Andrews',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Sweet Cheezus',
+        'company-image': 'cheezus.png',
+        levelOfHappiness: '82'
     },
     {
-        "id": 14,
-        "name": "Laura White",
-        "category": "Data Science",
-        "category-image": "data_science.png",
-        "company": "Data Wizards",
-        "company-image": "data_wizards.png",
-        "levelOfHappiness": 30
+        id: '14',
+        name: 'Rheanna Gilmour',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Fishcoteque',
+        'company-image': 'fishcoteque.png',
+        levelOfHappiness: '23'
     },
     {
-        "id": 15,
-        "name": "Michael King",
-        "category": "Supply Chain",
-        "category-image": "supply_chain.png",
-        "company": "Logistics Masters",
-        "company-image": "logistics_masters.png",
-        "levelOfHappiness": 19
+        id: '15',
+        name: 'Joann Weiss',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Grill Em All',
+        'company-image': 'emall.png',
+        levelOfHappiness: '55'
+    },
+    {
+        id: '16',
+        name: 'Everett Medrano',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'A Cut Above',
+        'company-image': 'above.png',
+        levelOfHappiness: '50'
+    },
+    {
+        id: '17',
+        name: 'Duncan Gaines',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Fro-ternity',
+        'company-image': 'ternity.png',
+        levelOfHappiness: '45'
+    },
+    {
+        id: '18',
+        name: 'Inaya Cope',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'Jack the Clipper',
+        'company-image': 'clipper.png',
+        levelOfHappiness: '81'
+    },
+    {
+        id: '19',
+        name: 'Samad Emery',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'My Hair Lady',
+        'company-image': 'lady.png',
+        levelOfHappiness: '35'
+    },
+    {
+        id: '20',
+        name: 'Ellouise Hammond',
+        category: 'employee',
+        'category-image': 'employee.png',
+        company: 'The Director’s Cut',
+        'company-image': 'cut.png',
+        levelOfHappiness: '56'
     }
-]
+];
